@@ -28,7 +28,7 @@ def loop_chat_tab():
                 )
             with gr.Column(scale=1):
                 model_name = gr.Dropdown(
-                    ["moonshot-v1-8k"], label="💻 Model Name", value="moonshot-v1-8k"
+                    ["gpt-3.5-turbo"], label="💻 Model Name", value="gpt-3.5-turbo"
                 )
                 temperature = gr.Slider(
                     minimum=0.0,
